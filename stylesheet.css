@@ -1,0 +1,996 @@
+*
+{
+	margin: 0%;
+	padding: 0%;
+}
+body
+{
+	background-color: black;
+	color: red;
+
+
+}
+
+.navbar
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.search{
+	width: 60%;
+	background-color: orange;
+	margin: 1%;
+	height: 38px;
+	text-align: center;
+	border-radius: 10px;
+}
+.search input
+{
+	background-color: white;
+	border:none;
+	width: 90%;
+	height: 90%;
+	margin: 2px;
+}
+.login
+{
+	width: 35%;
+	color: black;
+	margin: 1%;
+}
+.login i
+{
+	margin-left: 3%;
+}
+
+.navigation
+{
+	background-color: silver;
+	border: 2px solid black;
+	text-align: center;
+	height: 35px;
+	margin: 1%;
+
+}
+.navigation button
+{
+	background-color: silver;
+	border:none;
+	margin-left: 2%;
+	color: black;
+	width: 100px;
+	padding: 5px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+}
+.navigation a
+{
+	color: black;
+	text-decoration: none;
+}
+/*.navigation button:hover
+{
+	background-color: black;
+	color: yellow;
+}*/
+.navigation button:hover
+{
+	background-color: #f0bf0c;
+	color: red;
+}
+.header
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	/*background:url(task9_bg.jpg) no-repeat center center fixed;*/
+}
+
+.logo
+{
+	width: 20%;
+	text-align: left;
+}
+.logo img
+{
+	background-color: black;
+	width: 70%;
+	/*margin: 4%;*/
+
+}
+.name
+{
+	width: 50%;
+	text-align:center;
+	/*font-family: Lucida Handwriting;*/
+	font-size: 2rem;
+	color: white;
+	margin-top: 3%;
+
+}
+.pubglogo
+{
+	text-align: right;
+	width: 30%;
+}
+.menu{
+	display: none;
+	/*width: 10%;
+	text-align: right;
+	color: white;*/
+}
+/*.menu button
+{
+	border:solid;
+	background-color: black;
+	color: green;
+}
+.menu i
+{
+	background-color: white;
+	color: black;
+	border: 3px solid black;
+	width: 50px;
+}*/
+.flexpropertiescontainer
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flexpropertiescontainer div
+{
+	width: 29%;
+	background-color: silver;
+	color: black;
+	margin: 1%;
+	text-align: center;
+	padding: 1%;
+}
+.flexpropertiescontainer div img
+{
+	width: 100%;
+	height: 250px;
+	border:1px solid black;
+	opacity: 0.5;
+}
+.flexpropertiescontainer div button
+{
+	border:none;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #f7d10f;
+	color: black;
+	margin: 2%;
+}
+
+.flexpropertiescontainer div img:hover
+{
+	transition: all 1s ease;
+	opacity: 1;
+	width: 90%;
+	height: 230px;
+}
+.flexpropertiescontainer div button:hover
+{
+	background-color: #f7d10f;
+	color: black;
+}
+
+.menupage
+{
+	text-align: center;
+
+}
+.div
+{
+	width: 250px;
+	background-color: green;
+	margin: 2%;
+	padding:2%;
+	height: 40px;
+	text-align: center;
+
+}
+
+.div button
+{
+	width: 80%;
+	height:50%;
+	background-color: green;
+	border:none; 
+}
+
+.vegies
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.vegies div
+{
+	width: 20%;
+	margin-left: 0.1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+./*vegies
+{
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+}*/
+.vegies img
+{
+	width: 80%;
+	height: 150px;
+
+}
+.vegies button
+{
+	background-color: #f7d10f;
+	color: black;
+	border:none;
+	width: 100px;
+	height: 30px;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+.modes img
+{
+	width: 100%;
+	border: 3px solid white;
+}
+.allmaps
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.maps{
+	width: 20%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: 3px solid silver;
+}
+.maps img
+{
+	width: 100%;
+	height:200px;
+
+}
+.maps button
+{
+	background-color: black;
+	color: white;
+	border:none;
+	width: 100px;
+	height: 25px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 10px;
+}
+.yuvapic
+{
+	width: 20%;
+
+}
+.yuvapic img
+{
+	border-radius: 360px;
+	width: 150px;
+	height: 150px;
+	opacity: 10;
+	float: left;
+	margin-top: 15%;
+	margin-bottom: 2%;
+}
+.bio p
+{
+	float: right;
+	width: 60%;
+}
+
+footer
+{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 1.3rem;
+	color: black;
+	background-color: #f7d10f;
+	color: black;
+	margin-bottom: 3%;
+}
+
+
+/*Quiries for Mobile Screen*/
+@media only screen and (min-width: 320px) and (max-width: 767px)
+{
+
+	body
+{
+	background-color: black;
+	color: red;
+
+
+}
+
+.navbar
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.search{
+	width: 60%;
+	background-color: orange;
+	margin: 1%;
+	height: 38px;
+	text-align: center;
+	border-radius: 10px;
+}
+.search input
+{
+	background-color: white;
+	border:none;
+	width: 90%;
+	height: 90%;
+	margin: 2px;
+}
+.login
+{
+	width: 35%;
+	color: black;
+	margin: 1%;
+}
+.login i
+{
+	margin-left: 3%;
+}
+
+.navigation
+{
+	background-color: silver;
+	border: 2px solid black;
+	text-align: center;
+	height: 50px;
+	margin: 1%;
+
+}
+.navigation button
+{
+	background-color: silver;
+	border:none;
+	margin-left:1%;
+	color: black;
+	width: 70px;
+	padding: 5px;
+	font-size: 0.8rem;
+	border-radius: 10px;
+}
+.navigation a
+{
+	color: black;
+	text-decoration: none;
+}
+/*.navigation button:hover
+{
+	background-color: black;
+	color: yellow;
+}*/
+.navigation button:hover
+{
+	background-color: #f0bf0c;
+	color: red;
+}
+.header
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	/*background:url(task9_bg.jpg) no-repeat center center fixed;*/
+}
+
+.logo
+{
+	width: 20%;
+	text-align: left;
+}
+.logo img
+{
+	background-color: black;
+	width: 70%;
+	/*margin: 4%;*/
+
+}
+.name
+{
+	width: 70%;
+	text-align:center;
+	/*font-family: Lucida Handwriting;*/
+	font-size: 1rem;
+	color: #f0bf0c;
+	margin-top: 3%;
+
+}
+.name p
+{
+	font-size: 0.7rem;
+	color: #f0bf0c;
+}
+.pubglogo
+{
+	display: none;
+	/*text-align: right;
+	width: 30%;
+*/
+}
+.menu{
+	width: 10%;
+	text-align: center;
+	color: white;
+}
+.menu button
+{
+	border:solid;
+	background-color: black;
+	color: white;
+}
+.menu i
+{
+	background-color: white;
+	color: black;
+	border: 3px solid black;
+	width: 50px;
+}
+.flexpropertiescontainer
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.flexpropertiescontainer div
+{
+	width: 96%;
+	background-color: silver;
+	color: black;
+	margin: 1%;
+	text-align: center;
+	padding: 1%;
+}
+.flexpropertiescontainer div img
+{
+	width: 100%;
+	height: 250px;
+	border:1px solid black;
+	opacity: 0.5;
+}
+.flexpropertiescontainer div button
+{
+	border:none;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #f7d10f;
+	color: black;
+	margin: 2%;
+}
+
+.flexpropertiescontainer div img:hover
+{
+	transition: all 1s ease;
+	opacity: 1;
+	width: 90%;
+	height: 230px;
+}
+.flexpropertiescontainer div button:hover
+{
+	background-color: #f7d10f;
+	color: black;
+}
+
+.menupage
+{
+	text-align: center;
+
+}
+.div
+{
+	width: 250px;
+	background-color: green;
+	margin: 2%;
+	padding:2%;
+	height: 40px;
+	text-align: center;
+
+}
+
+.div button
+{
+	width: 80%;
+	height:50%;
+	background-color: green;
+	border:none; 
+}
+
+.vegies
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.vegies div
+{
+	width: 45%;
+	margin-left: 0.1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+./*vegies
+{
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+}*/
+.vegies img
+{
+	width: 80%;
+	height: 150px;
+
+}
+.vegies button
+{
+	background-color: #f7d10f;
+	color: black;
+	border:none;
+	width: 100px;
+	height: 30px;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+.modes img
+{
+	width: 100%;
+	border: 3px solid white;
+}
+.modes h3
+{
+	font-size: 1rem;
+}
+.modes p
+{
+	font-size: 0.6rem;
+}
+.allmaps
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.allmaps div
+{
+	width: 45%;
+	margin-left: 0.1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.maps{
+	width: 20%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: 3px solid silver;
+}
+.maps img
+{
+	width: 100%;
+	height:120px;
+
+}
+.maps button
+{
+	background-color: black;
+	color: white;
+	border:none;
+	width: 100px;
+	height: 25px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 10px;
+}
+.yuvapic
+{
+	width: 20%;
+
+}
+.yuvapic img
+{
+	border-radius: 360px;
+	width: 150px;
+	height: 150px;
+	opacity: 10;
+	float: left;
+	margin-top: 15%;
+	margin-bottom: 2%;
+}
+.bio p
+{
+	float: right;
+	width: 60%;
+}
+
+footer
+{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 0.9rem;
+	color: black;
+	background-color: silver;
+	color: black;
+	margin-bottom: 3%;
+}
+
+}
+
+/*TAB QUIRIES*/
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+*
+{
+	margin: 0%;
+	padding: 0%;
+}
+body
+{
+	background-color: black;
+	color: red;
+
+
+}
+
+.navbar
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.search{
+	width: 60%;
+	background-color: orange;
+	margin: 1%;
+	height: 38px;
+	text-align: center;
+	border-radius: 10px;
+}
+.search input
+{
+	background-color: white;
+	border:none;
+	width: 90%;
+	height: 90%;
+	margin: 2px;
+}
+.login
+{
+	width: 35%;
+	color: black;
+	margin: 1%;
+}
+.login i
+{
+	margin-left: 3%;
+}
+
+.navigation
+{
+	background-color: silver;
+	border: 2px solid black;
+	text-align: center;
+	height: 65px;
+	margin: 1%;
+
+}
+.navigation button
+{
+	background-color: silver;
+	border:none;
+	margin-left: 1%;
+	color: black;
+	width: 100px;
+	padding: 5px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+}
+.navigation a
+{
+	color: black;
+	text-decoration: none;
+}
+/*.navigation button:hover
+{
+	background-color: black;
+	color: yellow;
+}*/
+.navigation button:hover
+{
+	background-color: #f0bf0c;
+	color: red;
+}
+.header
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	/*background:url(task9_bg.jpg) no-repeat center center fixed;*/
+}
+
+.logo
+{
+	width:25%;
+	text-align: left;
+}
+.logo img
+{
+	background-color: black;
+	width: 70%;
+	/*margin: 4%;*/
+
+}
+.name
+{
+	width: 75%;
+	text-align:center;
+	/*font-family: Lucida Handwriting;*/
+	font-size: 1.5rem;
+	color: white;
+	margin-top: 4%;
+
+}
+
+.pubglogo
+{
+	display: none;
+	/*text-align: right;
+	width: 30%;*/
+}
+.menu{
+	display: none;
+	/*width: 10%;
+	text-align: right;
+	color: white;*/
+}
+/*.menu button
+{
+	border:solid;
+	background-color: black;
+	color: green;
+}
+.menu i
+{
+	background-color: white;
+	color: black;
+	border: 3px solid black;
+	width: 50px;
+}*/
+.flexpropertiescontainer
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.flexpropertiescontainer div
+{
+	width: 29%;
+	background-color: silver;
+	color: black;
+	margin: 1%;
+	text-align: center;
+	padding: 1%;
+}
+.flexpropertiescontainer div img
+{
+	width: 100%;
+	height: 180px;
+	border:1px solid black;
+	opacity: 0.5;
+}
+.flexpropertiescontainer div button
+{
+	border:none;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #f7d10f;
+	color: black;
+	margin: 2%;
+}
+
+.flexpropertiescontainer div img:hover
+{
+	transition: all 1s ease;
+	opacity: 1;
+	width: 90%;
+	height: 230px;
+}
+.flexpropertiescontainer div button:hover
+{
+	background-color: #f7d10f;
+	color: black;
+}
+
+.menupage
+{
+	text-align: center;
+
+}
+.div
+{
+	width: 250px;
+	background-color: green;
+	margin: 2%;
+	padding:2%;
+	height: 40px;
+	text-align: center;
+
+}
+
+.div button
+{
+	width: 80%;
+	height:50%;
+	background-color: green;
+	border:none; 
+}
+
+.vegies
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.vegies div
+{
+	width: 20%;
+	margin-left: 0.1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+./*vegies
+{
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+}*/
+.vegies img
+{
+	width: 80%;
+	height: 150px;
+
+}
+.vegies button
+{
+	background-color: #f7d10f;
+	color: black;
+	border:none;
+	width: 100px;
+	height: 30px;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+.modes img
+{
+	width: 100%;
+	border: 3px solid white;
+}
+.allmaps
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.maps{
+	width: 20%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: 3px solid silver;
+}
+.maps img
+{
+	width: 100%;
+	height:150px;
+
+}
+.maps button
+{
+	background-color: black;
+	color: white;
+	border:none;
+	width: 100px;
+	height: 25px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 10px;
+}
+.yuvapic
+{
+	width: 20%;
+
+}
+.yuvapic img
+{
+	border-radius: 360px;
+	width: 150px;
+	height: 150px;
+	opacity: 10;
+	float: left;
+	margin-top: 15%;
+	margin-bottom: 2%;
+}
+.bio p
+{
+	float: right;
+	width: 60%;
+}
+
+footer
+{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 1rem;
+	color: black;
+	background-color: #f7d10f;
+	color: black;
+	margin-bottom: 3%;
+}
+}
